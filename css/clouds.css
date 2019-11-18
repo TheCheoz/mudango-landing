@@ -1,0 +1,185 @@
+.clouds-landing {
+	position: relative;
+}
+
+.clouds-landing img {
+	height  : 50px;
+	opacity : 0.6;
+	position: absolute;
+}
+
+.clouds-landing .cloud-1 {
+	top              : 12.5vh;
+	right            : 20%;
+	-webkit-animation: moveCloudOne 120s linear infinite;
+	-moz-animation   : moveCloudOne 120s linear infinite;
+	-o-animation     : moveCloudOne 120s linear infinite;
+}
+
+.clouds-landing .cloud-2 {
+	top              : 12.5vh;
+	right            : 120%;
+	-webkit-animation: moveCloudTwo 120s linear infinite;
+	-moz-animation   : moveCloudTwo 120s linear infinite;
+	-o-animation     : moveCloudTwo 120s linear infinite;
+}
+
+.clouds-landing .cloud-3 {
+	top              : 30vh;
+	right            : 10%;
+	-webkit-animation: moveCloudThree 120s linear infinite;
+	-moz-animation   : moveCloudThree 120s linear infinite;
+	-o-animation     : moveCloudThree 120s linear infinite;
+}
+
+.clouds-landing .cloud-4 {
+	top              : 30vh;
+	right            : 110%;
+	-webkit-animation: moveCloudFour 120s linear infinite;
+	-moz-animation   : moveCloudFour 120s linear infinite;
+	-o-animation     : moveCloudFour 120s linear infinite;
+}
+
+.clouds-landing .cloud-5 {
+	top              : 20vh;
+	right            : 80%;
+	-webkit-animation: moveCloudFive 120s linear infinite;
+	-moz-animation   : moveCloudFive 120s linear infinite;
+	-o-animation     : moveCloudFive 120s linear infinite;
+}
+
+.clouds-landing .cloud-6 {
+	top              : 20vh;
+	right            : 180%;
+	-webkit-animation: moveCloudSix 120s linear infinite;
+	-moz-animation   : moveCloudSix 120s linear infinite;
+	-o-animation     : moveCloudSix 120s linear infinite;
+}
+
+.clouds-landing .cloud-7 {
+	top              : 40vh;
+	right            : 90%;
+	-webkit-animation: moveCloudSeven 120s linear infinite;
+	-moz-animation   : moveCloudSeven 120s linear infinite;
+	-o-animation     : moveCloudSeven 120s linear infinite;
+}
+
+.clouds-landing .cloud-8 {
+	top              : 40vh;
+	right            : 190%;
+	-webkit-animation: moveCloudeight 120s linear infinite;
+	-moz-animation   : moveCloudeight 120s linear infinite;
+	-o-animation     : moveCloudeight 120s linear infinite;
+}
+
+/*FIRST COMBO*/
+@-webkit-keyframes moveCloudOne {
+	0%   {right: 20%;}
+	100% {right: -80%;}
+}
+@-moz-keyframes moveCloudOne {
+	0%   {right: 20%;}
+	100% {right: -80%;}
+}
+@-o-keyframes moveCloudOne {
+	0%   {right: 20%;}
+	100% {right: -80%;}
+}
+
+@-webkit-keyframes moveCloudTwo {
+	0%   {right: 120%;}
+	100% {right: 20%;}
+}
+@-moz-keyframes moveCloudTwo {
+	0%   {right: 120%;}
+	100% {right: 20%;}
+}
+@-o-keyframes moveCloudTwo {
+	0%   {right: 120%;}
+	100% {right: 20%;}
+}
+/*END FIRST COMBO*/
+
+/*SECOND COMBO*/
+@-webkit-keyframes moveCloudThree {
+	0%   {right: 10%;}
+	100% {right: -90%;}
+}
+@-moz-keyframes moveCloudThree {
+	0%   {right: 10%;}
+	100% {right: -90%;}
+}
+@-o-keyframes moveCloudThree {
+	0%   {right: 10%;}
+	100% {right: -90%;}
+}
+
+@-webkit-keyframes moveCloudFour {
+	0%   {right: 110%;}
+	100% {right: 10%;}
+}
+@-moz-keyframes moveCloudFour {
+	0%   {right: 110%;}
+	100% {right: 10%;}
+}
+@-o-keyframes moveCloudFour {
+	0%   {right: 110%;}
+	100% {right: 10%;}
+}
+/*END SECOND COMBO*/
+
+/*FOURTH COMBO*/
+@-webkit-keyframes moveCloudFive {
+	0%   {right: 80%;}
+	100% {right: -20%;}
+}
+@-moz-keyframes moveCloudFive {
+	0%   {right: 80%;}
+	100% {right: -20%;}
+}
+@-o-keyframes moveCloudFive {
+	0%   {right: 80%;}
+	100% {right: -20%;}
+}
+
+@-webkit-keyframes moveCloudSix {
+	0%   {right: 180%;}
+	100% {right: 80%;}
+}
+@-moz-keyframes moveCloudSix {
+	0%   {right: 180%;}
+	100% {right: 80%;}
+}
+@-o-keyframes moveCloudSix {
+	0%   {right: 180%;}
+	100% {right: 80%;}
+}
+/*END FOURTH COMBO*/
+
+/*FIFTH COMBO*/
+@-webkit-keyframes moveCloudSeven {
+	0%   {right: 90%;}
+	100% {right: -10%;}
+}
+@-moz-keyframes moveCloudSeven {
+	0%   {right: 90%;}
+	100% {right: -10%;}
+}
+@-o-keyframes moveCloudSeven {
+	0%   {right: 90%;}
+	100% {right: -10%;}
+}
+
+@-webkit-keyframes moveCloudeight {
+	0%   {right: 190%;}
+	100% {right: 90%;}
+}
+@-moz-keyframes moveCloudeight {
+	0%   {right: 190%;}
+	100% {right: 90%;}
+}
+@-o-keyframes moveCloudeight {
+	0%   {right: 190%;}
+	100% {right: 90%;}
+}
+/*END FIFTH COMBO*/
